@@ -50,9 +50,16 @@
     list-style-type: none;
 }
 
+.concise_descr p>i{
+    font-family: sans-serif; 
+    font-size: 15px; 
+    color:gray;
+}
+
 .profile{
     margin: 10px;
 }
+
 #profile-img{
     width: 50%;
     border: 2px solid blue;
@@ -145,6 +152,10 @@ img{
     border-radius: 7px;
 }
 
+#langs, #frames{
+    width: auto;
+}
+
 @media only screen and (max-width: 700px){
 
     .social-media {
@@ -155,19 +166,42 @@ img{
         font-size: 13px;
     }
 
+    .main-grid{
+        grid-template-columns: 50% auto;
+        grid-column-gap: 0px;
+
+    }
+
+    #meme > p{
+        font-size: 13px;
+    }
+
     #basics li{
-        font-size: 12px;
-        text-align: none;
+        font-size: 13px;
     }
 
-    #basics p{
-        padding-left: 40px;
+    .profile{
+        margin: 5px;
     }
 
-    div[class="tech-list"]{
-        margin-left: 50px;
+    .concise_descr div, #basics div{
+        width: auto;
+        height: auto;
+        margin: 5px;
+        padding: 10px;
     }
 
+    #meme, #basics{
+        width: 100%
+    }
+
+    #profile-img{
+        width: 70%;
+    }
+    
+    #basics ul{
+        margin-right: 30px;
+    }
 
 }
 
@@ -176,7 +210,6 @@ img{
     .social-media {
         width: 40%;
     }
-
 }
 
 @media only screen and (min-width: 1261px){
