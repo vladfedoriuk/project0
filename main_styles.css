@@ -1,0 +1,189 @@
+
+.lowest_bar{
+    width: 100%;
+    background-color: lightgray;
+}
+
+.centered{
+    text-align: center; 
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 5px;
+}
+
+#name{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    width: 100%;
+    padding: 15px;
+}
+
+.concise_descr{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.concise_descr div{
+    width: 10%;
+    height: 15%;
+    margin: 15px;
+    padding: 5px;
+}
+
+
+.main-grid{
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-column-gap: 5px;
+
+}
+
+.concise_descr ul,li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.profile{
+    margin: 10px;
+}
+#profile-img{
+    width: 50%;
+    border: 2px solid blue;
+    border-radius: 7px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#basics{
+    width: 40%;
+    text-align: center;
+}
+
+#basics > i{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: red;
+}
+
+
+#meme{
+    text-align: center;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:gray;
+    font-size: 20px;
+}
+
+
+.social-media{
+    width: 20%;
+}
+
+.social-media > div {
+    margin: 15px;
+}
+
+
+#github-img{
+    height: 38px;
+    width: 38px;
+}
+
+#instagram-img{
+    height: 40px;
+    width: 55px;
+}
+
+#facebook-img{
+    height: 38px;
+    width: 40px;
+}
+
+#github-img:hover{
+    height: 42px;
+    width: 42px;
+}
+
+#instagram-img:hover{
+    height: 44px;
+    width: 57px;
+}
+
+#facebook-img:hover{
+    height: 42px;
+    width: 44px;
+}
+
+
+.navbar-custom{
+    background-color:lightgrey;
+}
+
+.navbar-custom .nav-link{
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: gray;
+}
+
+.navbar-custom .nav-link:hover{
+    color: black;
+}
+
+.tech-list{
+    background-color: lightgrey; 
+    border-radius: 7px;
+}
+
+@media only screen and (max-width: 700px){
+
+    .social-media {
+        width: 60%;
+    }
+
+    a[class="nav-link"], .navbar-custom .nav-link{
+        font-size: 13px;
+    }
+
+    #basics li{
+        font-size: 12px;
+        text-align: none;
+    }
+
+    #basics p{
+        padding-left: 40px;
+    }
+
+    div[class="tech-list"]{
+        margin-left: 50px;
+    }
+
+
+}
+
+@media only screen and (min-width: 701px){
+
+    .social-media {
+        width: 40%;
+    }
+
+}
+
+@media only screen and (min-width: 1261px){
+
+    .social-media {
+        width: 20%;
+    }
+
+
+}
