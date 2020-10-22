@@ -156,6 +156,7 @@ img{
     width: auto;
 }
 
+
 @media only screen and (max-width: 700px){
 
     .social-media {
@@ -192,7 +193,7 @@ img{
     }
 
     #meme, #basics{
-        width: 100%
+        width: 90%
     }
 
     #profile-img{
@@ -200,7 +201,7 @@ img{
     }
     
     #basics ul{
-        margin-right: 30px;
+        margin-right: 10px;
     }
 
 }
