@@ -175,7 +175,7 @@ img{
 @media only screen and (max-width: 700px){
 
     .social-media {
-        width: 70%;
+        width: 75%;
     }
 
     a[class="nav-link"], .navbar-custom .nav-link{
@@ -225,6 +225,19 @@ img{
 
 @media only screen and (min-width: 701px){
 
+    .main-grid{
+        grid-template-columns: 25% auto;
+        grid-column-gap: 0px;
+
+    }
+
+    .concise_descr div, #basics div{
+        width: auto;
+        height: auto;
+        margin: 5px;
+        padding: 5px;
+    }
+
     .social-media {
         width: 40%;
     }
@@ -236,5 +249,17 @@ img{
         width: 20%;
     }
 
+    .main-grid{
+        grid-template-columns: 25% auto;
+        grid-column-gap: 0px;
+
+    }
+    
+    .concise_descr div, #basics div{
+        width: auto;
+        height: auto;
+        margin: 5px;
+        padding: 5px;
+    }
 
 }
